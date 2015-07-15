@@ -1,0 +1,338 @@
+body{
+	background: #e7ecf2;
+}
+header{
+	margin: 30px auto;
+	width: 1130px;
+}
+body>div{
+	width: 1130px;
+	margin: 0 auto;
+}
+section{
+	border: 1px solid #d9e0ea;
+	border-radius: 5px;
+	background: #ffffff;
+  box-shadow: 0px 1px 3px 0px rgb( 193, 204, 220 );
+}
+
+/*********Левый header********/
+.head_left{
+	width: 267px;
+	background: #f4f6f9;
+	display: inline-block;
+	vertical-align: top;
+}
+.head_left img{
+	width: 267px;
+	height: 284px;
+}
+.head_left div{
+	width: 85px;
+	display: inline-block;
+	text-align: center;
+	padding: 18px 0;
+	margin-top: -5px;
+	border-right: solid #e5e8ef 1px;
+}
+.head_left span{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 122, 133, 148 );
+}
+.head_left p{
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb( 42, 54, 74 );
+  font-weight: bold;
+  margin: 0;
+}
+
+/*****Центральный header***********/
+header>div{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 25px;
+}
+.head_center1{
+	width: 529px;
+	height: 108px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.head_center1 a{
+	vertical-align: middle;
+	line-height: 108px;
+	text-decoration: none;
+	color: #5a8ce4;
+	font-size: 48px;
+	font-family: Aquarelle;
+}
+.head_center2{
+	width: 489px;
+	padding: 20px;
+}
+.head_center2 select{
+	width: 480px;
+	height: 40px;
+	background: #f1f6fa;
+	margin: 3px;
+	border: solid #f1f2f5 1px;
+	border-radius: 5px;
+	padding-left: 10px;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb( 30, 39, 56 );
+}
+.head_center2 label{
+	padding-left: 17px;
+	font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb( 30, 39, 56 );
+}
+#sort{
+	width: 355px;
+}
+
+/******Правый header***********/
+.head_right{
+	text-align: center;
+	width: 267px;
+	height: 358px;
+	display: inline-block;
+}
+.l_btn{
+	width: 132px;
+	height: 57px;
+	text-align: center;
+	border-right: solid #e5e9ef 1px;
+	display: inline-block;
+}
+.r_btn{
+	width: 130px;
+	height: 57px;
+	text-align: center;
+	display: inline-block;
+}
+.disabled_btn{
+	background: #f4f6f9;
+	border-bottom: solid 1px #e5e9ef;
+}
+.head_right div a{
+  text-decoration: none;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb( 30, 39, 56 );
+  font-weight: bold;
+  vertical-align: middle;
+  line-height: 57px;
+}
+input[type=text], input[type=password]{
+	width: 188px;
+	height: 40px;
+	background: #f3f6f9;
+	border-radius: 5px;
+	border: solid 1px #e5e8ef;
+	padding-left: 18px;
+	margin: 10px 30px;
+}
+#username{
+	margin-top: 30px;
+}
+#submit{
+	width: 208px;
+	height: 42px;
+	border-radius: 5px;
+	border:none;
+	background: #5a8ce4;
+	margin: 10px 30px 15px;
+  	font-size: 17px;
+  	font-family: "Myriad Pro";
+  	font-weight: bold;
+  	color: rgb( 255, 255, 255 );
+}
+.head_right a{
+	text-decoration: none;
+  font-size: 15px;
+  font-family: "Myriad Pro";
+  color: rgb( 122, 133, 148 );
+}
+#submit_facebook{
+  font-size: 17px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  height: 52px;
+  background: url('../img/facebook.png') no-repeat;
+  background-size: 267px 52px;
+  padding-left:34px; 
+  margin-top: 14px;
+} 
+.left, .center, .right{
+	display: inline-block;
+	vertical-align: top;
+}
+/*********Левая часть***********/
+.triangle{
+	width: 18px;
+	height: 15px;
+	background-image: url('../img/triangle.png');
+	background-repeat: no-repeat;
+	margin-left: 220px;
+	margin-top: -14px;
+	position: absolute;
+	z-index: 2;
+}
+.bio{
+	width: 267px;
+	z-index: 1;
+}
+.bio article{
+	padding: 20px;
+}
+
+.bio h1{
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  font-weight: bold;
+  color: rgb( 30, 39, 56 );
+  margin-top: 0;
+}
+.bio p{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 122, 133, 148 );
+  margin-top: 0;
+}
+.btm{
+	background: #f4f6f9;
+	width: 100%;
+	height: 100px;
+	border-top: solid #e5e9ef 1px;
+
+}
+.btn{
+	width: 165px;
+	height: 40px;
+	background: #5a8ce4;
+	border-radius: 5px;
+	vertical-align: middle;
+	line-height: 40px;
+	text-align: center;
+	margin: 30px auto;
+}
+.btn a{
+	text-decoration: none;
+	font-weight: bold;
+  font-size: 16px;
+  font-family: "Myriad Pro";
+  color: rgb( 255, 255, 255 );
+}
+
+/******Центральная часть*********/
+.center{
+	margin: 0 25px;
+}
+.action{
+	background: #f4f6f9;
+	width: 480px;
+	height: 72px;
+	padding: 20px 20px 20px 30px;
+	margin-bottom: 20px;
+}
+.action img{
+	width: 70px;
+	height: 70px;
+	border-radius: 70px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.action div{
+	width: 380px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 20px;
+}
+.action h1{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb( 30, 39, 56 );
+  margin: 0 0 10px 0;
+}
+.action p{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 122, 133, 148 );
+  margin: 0;
+}
+/******Правая часть***********/
+.right{
+	width: 267px;
+}
+.action2{
+	width: 237px;
+	height: 55px;
+	padding: 10px 15px;
+	margin-bottom: 20px;
+}
+.action2 img{
+	width: 55px;
+	height: 55px;
+	border-radius: 55px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.action2 div{
+	width: 160px;
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+}
+.action2 h1{
+  font-size: 18px;
+  font-family: "Myriad Pro";
+  color: rgb( 30, 39, 56 );
+  margin: 0 0 6px 0;
+}
+.action2 p{
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  color: rgb( 122, 133, 148 );
+  margin: 0;
+}
+
+/******Календарь*********/
+.calendar{
+	padding: 10px;
+}
+#calendar2 {
+  font-size: 14px;
+  font-family: "Myriad Pro";
+  width: 100%;
+  font: monospace;
+  line-height: 1.2em;
+  font-size: 15px;
+  text-align: center;
+}
+#calendar2 thead tr:last-child {
+  font-size: small;
+  color: rgb(85, 85, 85);
+}
+#calendar2 thead tr:nth-child(1) td:nth-child(2) {
+  color: rgb(50, 50, 50);
+}
+#calendar2 thead tr:nth-child(1) td:nth-child(1):hover, #calendar2 thead tr:nth-child(1) td:nth-child(3):hover {
+  cursor: pointer;
+}
+#calendar2 tbody td {
+  color: rgb(44, 86, 122);
+}
+#calendar2 tbody td:nth-child(n+6), #calendar2 .holiday {
+  color: rgb(231, 140, 92);
+}
+#calendar2 tbody td.today {
+  background: rgb(220, 0, 0);
+  color: #fff;
+}
